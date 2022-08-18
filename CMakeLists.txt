@@ -10,4 +10,4 @@ else ()
     set (CMAKE_CXX_STANDARD 17)
 endif ()
 
-add_subdirectory (mosaic)
+add_subdirectory (mosaic/demo-regular)
