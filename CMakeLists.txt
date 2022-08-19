@@ -11,3 +11,4 @@ else ()
 endif ()
 
 add_subdirectory (mosaic/demo-regular)
+add_subdirectory (mosaic/demo-random)

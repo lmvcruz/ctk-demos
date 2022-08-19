@@ -4,12 +4,13 @@ project(regular-mosaic VERSION 0.1.0)
 set(WORKSPACE ${PROJECT_SOURCE_DIR}/../../../)
 
 add_executable(regular-mosaic
-    main.cpp
+    regular.cpp
 )
 
 find_package(OpenCV REQUIRED)
 
 include_directories(
+    ${PROJECT_SOURCE_DIR}/../src
     ${WORKSPACE}/ctk
     ${WORKSPACE}/ext/argparse/include
 )
